@@ -1,0 +1,189 @@
+@font-face {
+    font-family: Varela;
+    src: url(fonts/Varela-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+body{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#nav-bar{
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+    
+}
+#nav-bar nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px;
+}
+.nav-bar-style{
+    font-family: Varela;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+.nav-bar-style:hover{
+    color: #14d478;
+}
+header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+.title-name{
+    font-family: Varela;
+    font-size: 20px;
+    color: black;
+    padding: 24px;
+}
+button{
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 100;
+    font-style: bold;
+    padding: 8px 14px;
+    border-radius: 13px;
+    text-align: center;
+    color: white;
+    margin: 12px;
+    background-color: #03cd6b;
+    /* background-color: #0f0f0f12; */
+    border: 2px solid #14d478;
+}
+/* button:hover{
+    background-color: white;
+    border: 2px solid #14d478;
+    color: white;
+    border: 2px;
+    border-radius: 13px;
+    cursor: pointer;
+} */
+
+.background-img{
+    width: 100%;
+    height: 100vh;
+    background-image: url('images/bg\ img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-style-img{
+    background: rgb(0 0 0 / 40%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.small-text{
+    font-family: Poppins;
+    font-weight: 600;
+    font-style: bold;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 125px;
+    
+}
+.main-text{
+    font-family: Poppins;
+    font-size: 49px;
+    font-weight: 900;
+    font-style: bold;
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
+.btnn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.btn{
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 100;
+    font-style: bold;
+    padding: 8px 14px;
+    border-radius: 13px;
+    text-align: center;
+    color: white;
+    margin: 12px;
+    width: 8vw;
+    /* background-color: #03cd6b; */
+    /* background-color: #0f0f0f12; */
+    border: 2px solid #14d478;
+   
+}  
+.btn:hover{
+    background-color: #03cd6b;
+}
+.contianer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.box{
+    width: 60vw;
+    height: 20vh;
+    background-color: white;
+}
+.list{
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    justify-content: space-between;
+}
+.list li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Varela;
+    color: black;
+    padding: 20px;
+}
+
+form{
+    display: flex;
+    align-items: baseline;
+}
+form input{
+    margin-left: 40px;
+    margin-right: 60px;
+    padding: 10px 10px;
+}
+.room{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 60px;
+}
